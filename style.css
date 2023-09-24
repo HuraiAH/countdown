@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+}
+.bg_img > img {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.title {
+  position: absolute;
+  margin: -400px 20%;
+  font-size: 2rem;
+  color: coral;
+}
+.inputs {
+  display: flex;
+  gap: 1rem;
+}
+.inputs > div > input {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0 10px;
+  width: 100px;
+  height: 30px;
+  background-color: papayawhip;
+}
+.inputs > div > label {
+  font-weight: 600;
+  color: rgb(206, 20, 20);
+}
